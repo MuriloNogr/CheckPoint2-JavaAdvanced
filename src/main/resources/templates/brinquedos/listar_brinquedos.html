@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar brinquedos</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+<img src="/images/BrinquedoTeca.png" alt="Logo Argos AI">
+<h1>Listagem de Brinquedos</h1>
+<ul>
+
+    <th:block th:each="brinquedo : ${brinquedos}">
+        <li>
+            <strong th:text="${brinquedo.nome}"></strong> -
+            <span th:text="${brinquedo.tipo}"></span>
+            <span th:text="${brinquedo.classificacao}"></span>
+            <span th:text="${brinquedo.tamanho}"></span>
+            <span th:text="${brinquedo.preco}"></span>
+        </li>
+    </th:block>
+</ul>
+<a href="/brinquedos/cadastrar">Cadastrar Brinquedos</a>
+
+</body>
+</html>

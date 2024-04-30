@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar brinquedos</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+<img src="/images/BrinquedoTeca.png" alt="Logo Argos AI">
+<h1>Cadastrar Novos Brinquedos</h1>
+<form action="/brinquedos/cadastrar" method="post" th:object="${brinquedoDTO}">
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome" th:field="*{nome}"><br>
+    <span th:if="${#fields.hasErrors('nome')}" th:errors="*{nome}"></span><br>
+
+    <label for="tipo">Tipo do Brinquedo:</label><br>
+    <textarea id="tipo" name="tipo" th:field="*{tipo}"></textarea><br><br>
+    <span th:if="${#fields.hasErrors('tipo')}" th:errors="*{tipo}"></span><br>
+
+    <label for="classificacao">Classificação etária:</label><br>
+    <textarea id="classificacao" name="classificacao" th:field="*{classificacao}"></textarea><br><br>
+    <span th:if="${#fields.hasErrors('classificacao')}" th:errors="*{classificacao}"></span><br>
+
+    <label for="tamanho">tamanho do brinquedo:</label><br>
+    <textarea id="tamanho" name="tamanho" th:field="*{tamanho}"></textarea><br><br>
+    <span th:if="${#fields.hasErrors('tamanho')}" th:errors="*{tamanho}"></span><br>
+
+    <label for="preco">Valor:</label><br>
+    <textarea id="preco" name="preco" th:field="*{preco}"></textarea><br><br>
+    <span th:if="${#fields.hasErrors('preco')}" th:errors="*{preco}"></span><br>
+
+    <input type="submit" value="Cadastrar">
+</form>
+
+<a href="/brinquedos/listar">Voltar para Listagem de Brinquedos</a>
+</body>
+</html>
