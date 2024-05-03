@@ -4,6 +4,9 @@ Diagrama UML
 
 ![brinquedotecaUML](https://github.com/MuriloNogr/CheckPoint2-JavaAdvanced/blob/main/Brinquedoteca.jpg)
 
+----------------------------------------
+
+INTEGRANTES: 
 
 550531 - Luis Fernando Menezes Zampar
 
@@ -13,6 +16,7 @@ Diagrama UML
 
 550711 - Gabriel Galdino da Silva
 
+------------------------------------------
 
 Descrição do Projeto
 
@@ -160,5 +164,9 @@ http://localhost:8080/brinquedos/cadastrar (dá acesso a ferramenta de inserçã
 http://localhost:8080/brinquedos/listar (Busca e lista todos os brinquedos existentes na base de dados)
 
 É importante lembrar que a UML é apenas uma ferramenta para modelar o sistema, e sua completude e detalhamento dependem do objetivo da modelagem.
+
+TB_Brinquedos
+
+![Banco](https://github.com/MuriloNogr/CheckPoint2-JavaAdvanced/blob/main/TB_Brinquedo.png)
 
 
