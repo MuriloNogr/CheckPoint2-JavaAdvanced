@@ -137,14 +137,28 @@ Observações Finais:
 A UML agora apresenta uma visão mais completa das interações do sistema, incluindo as interações com a interface gráfica do usuário e o fluxo de dados entre os componentes.
 A UML ainda não detalha a implementação interna dos componentes, mas fornece uma base sólida para a compreensão da arquitetura e do funcionamento do sistema.
 
+
 EndPoint Cadastrar
+
+![Cadastrar](https://github.com/MuriloNogr/CheckPoint2-JavaAdvanced/blob/main/Cadastrar.png)
+
 
 Endpoint listar
 
+![Listar](https://github.com/MuriloNogr/CheckPoint2-JavaAdvanced/blob/main/Listar.png)
+
+
 EndPoint home
 
+![Home](https://github.com/MuriloNogr/CheckPoint2-JavaAdvanced/blob/main/Home.png)
+
+
 http://localhost:8080/ (a porta que está definida como padrão dá acesso a home da aplicação)
+
 http://localhost:8080/brinquedos/cadastrar (dá acesso a ferramenta de inserção de novos brinquedos na base de dados OracleSQL)
+
 http://localhost:8080/brinquedos/listar (Busca e lista todos os brinquedos existentes na base de dados)
+
 É importante lembrar que a UML é apenas uma ferramenta para modelar o sistema, e sua completude e detalhamento dependem do objetivo da modelagem.
+
 
