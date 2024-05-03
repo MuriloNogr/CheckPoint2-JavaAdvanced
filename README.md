@@ -114,9 +114,37 @@ O BrinquedoController segue os mesmos passos da interação "Salvar um novo brin
 O BrinquedoController recebe o BrinquedoDTO do BrinquedoService.
 O BrinquedoController redireciona o usuário para a página de listagem de brinquedos.
 
+Segue uma descrição direta e profissional dos artefatos definidos no arquivo pom.xml para documentação de projeto:
+
+Artefatos do Projeto
+spring-boot-starter-data-jpa: Configura o Spring Data JPA para integração com bases de dados usando Hibernate como implementação JPA.
+spring-boot-starter-data-rest: Permite a exposição automática de repositórios Spring Data como endpoints REST.
+spring-boot-starter-jdbc: Provê suporte para acesso a dados JDBC, incluindo um pool de conexões.
+spring-boot-starter-thymeleaf: Habilita a criação de aplicações Web MVC usando Thymeleaf como motor de templates.
+spring-boot-starter-web: Oferece funcionalidades essenciais para o desenvolvimento de aplicações web, incluindo Spring MVC.
+spring-boot-starter-web-services: Facilita a criação de serviços Web SOAP.
+spring-boot-starter-webflux: Adiciona suporte para programação reativa na web com Spring WebFlux.
+spring-boot-devtools: Ferramenta de desenvolvimento que proporciona reinício automático, reload de configurações e outras funcionalidades para desenvolvimento ágil.
+spring-boot-starter-test: Inclui dependências para testar aplicações Spring Boot, utilizando JUnit, Spring Test & Spring Boot Test, AssertJ, Hamcrest, Mockito, JSONassert, e JsonPath.
+reactor-test: Proporciona suporte para testes unitários em aplicações reativas que usam o Project Reactor.
+jakarta.validation-api: Define a API de validação de beans, permitindo validações automáticas baseadas em anotações.
+ojdbc8: Driver JDBC para conexão com bases de dados Oracle, compatível com Java 8.
+Configuração de Build
+spring-boot-maven-plugin: Plugin do Maven para gerenciar aplicações Spring Boot, suportando funcionalidades como a construção de artefatos executáveis e a execução de aplicações durante o desenvolvimento.
+
 Observações Finais:
 
 A UML agora apresenta uma visão mais completa das interações do sistema, incluindo as interações com a interface gráfica do usuário e o fluxo de dados entre os componentes.
 A UML ainda não detalha a implementação interna dos componentes, mas fornece uma base sólida para a compreensão da arquitetura e do funcionamento do sistema.
+
+EndPoint Cadastrar
+
+Endpoint listar
+
+EndPoint home
+
+http://localhost:8080/ (a porta que está definida como padrão dá acesso a home da aplicação)
+http://localhost:8080/brinquedos/cadastrar (dá acesso a ferramenta de inserção de novos brinquedos na base de dados OracleSQL)
+http://localhost:8080/brinquedos/listar (Busca e lista todos os brinquedos existentes na base de dados)
 É importante lembrar que a UML é apenas uma ferramenta para modelar o sistema, e sua completude e detalhamento dependem do objetivo da modelagem.
 
