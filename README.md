@@ -4,6 +4,16 @@ Diagrama UML
 
 ![brinquedotecaUML](https://github.com/MuriloNogr/CheckPoint2-JavaAdvanced/blob/main/Brinquedoteca.jpg)
 
+
+550531 - Luis Fernando Menezes Zampar
+
+551694 - Diogo Fagioli Bombonatti
+
+89162 - Murilo Nogueira
+
+550711 - Gabriel Galdino da Silva
+
+
 Descrição do Projeto
 
 A UML (Unified Modeling Language) da Brinquedoteca Online ilustra a interação entre os componentes do sistema, facilitando a compreensão da arquitetura e do fluxo de dados.
